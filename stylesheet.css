@@ -2,11 +2,11 @@ table{
   border-collapse:collapse;
 }
 
-.html-table th{
+th.html-table{
   background-color:#00ced1;
 }
 
-.css-table th{
+th.css-table{
   background-color:#ffdead;
 }
 
