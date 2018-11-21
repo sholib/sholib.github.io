@@ -18,7 +18,7 @@
         <td>2</td>
         <td>&lt;head&gt;&lt;/head&gt;</td>
         <td>文書のヘッダ情報を表す</td>
-        <td>&lt;html&gt;この中に表記&lt;/html&gt;</td>
+        <td>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;/html&gt;</td>
     </tr>
 
     <tr align="center">
@@ -60,7 +60,7 @@
         <td>8</td>
         <td>&lt;span&gt;&lt;/span&gt;</td>
         <td>ひとかたまりの範囲として定義する</td>
-        <td>&lt;ul&gt;ここの範囲をひとかたまりとする&lt;/ul&gt;</td>
+        <td>&lt;span&gt;ここの範囲をひとかたまりとする&lt;/span&gt;</td>
 　　</tr>
 
     <tr align="center">
@@ -77,16 +77,85 @@
         <td>&lt;form&gt;この中にボタン等の記述&lt;/form&gt;</td>
     </tr>
 
-    <!-- <tr align="center">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr> -->
+
+    ・CSS
+        <table border>
+            <link rel="stylesheet" href="stylesheet.css">
+            <th width="10">＃</th>
+            <th width="50">スタイル</th>
+            <th width="600">説明</th>
+            <th width="600">使用例</th>
+
+    <tr align="center">
+        <td>1</td>
+        <td>color</td>
+        <td>文字の色を指定</td>
+        <td>color: #ff0000;</td>
+    </tr>
+
+    <tr align="center">
+        <td>2</td>
+        <td>background</td>
+        <td>背景に関する指定をまとめて行う</td>
+        <td>（色の指定）background-color:  ;</td>
+    </tr>
+
+    <tr align="center">
+        <td>3</td>
+        <td>border</td>
+        <td>ボーダーのスタイル・太さ・色を指定する</td>
+        <td>（線の太さの指定）border-width</td>
+    </tr>
+
+    <tr align="center">
+        <td>4</td>
+        <td>font</td>
+        <td>フォントに関する指定をまとめて行う</td>
+        <td>（サイズ指定）font-size</td>
+    </tr>
 
 
+    <tr align="center">
+        <td>5</td>
+        <td>float</td>
+        <td>左または右に寄せて配置する</td>
+        <td>(左に寄せる)float:left;</td>
+    </tr>
 
+    <tr align="center">
+        <td>6</td>
+        <td>padding</td>
+        <td>パディングに関する指定をまとめて行う</td>
+        <td>(上パディングを指定)padding-top</td>
+    </tr>
+
+    <tr align="center">
+        <td>7</td>
+        <td>margin</td>
+        <td>マージンに関する指定をまとめて行う</td>
+        <td>(上マージンを指定)margin-top</td>
+    </tr>
+
+    <tr align="center">
+        <td>8</td>
+        <td>position</td>
+        <td>ボックスの配置方法（基準位置）を指定する</td>
+        <td>（絶対位置に固定）position:fixed;</td>
+    </tr>
+
+    <tr align="center">
+        <td>9</td>
+        <td>cursor</td>
+        <td>カーソル形状の指定</td>
+        <td>&lt;li style="cursor: move"&gt;move　移動カーソル&lt;/li&gt;</td>
+    </tr>
+
+    <tr align="center">
+        <td>10</td>
+        <td>text-shadow</td>
+        <td>テキストに影をつける</td>
+        <td>text-shadow:距離や色の指定;}</td>
+    </tr>
 </table>
-
 
 </html>
