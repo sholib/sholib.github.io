@@ -2,14 +2,14 @@ table{
   border-collapse:collapse;
 }
 
-.html{
+.html-table.html{
   background-color:#00ced1;
 }
 
-.css{
+.css-table.css{
   background-color:#ffdead;
 }
 
 td{
-  text-align: left; 
+  text-align:left;
 }
