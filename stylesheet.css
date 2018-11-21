@@ -9,3 +9,7 @@ table{
 .css{
   background-color:#ffdead;
 }
+
+td{
+  text-align: left; 
+}
